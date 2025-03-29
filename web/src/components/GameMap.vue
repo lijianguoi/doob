@@ -1,6 +1,6 @@
 <template>
   <div  ref= "parent" class = "gamemap">
-    <canvas ref="canvas"></canvas>
+    <canvas ref="canvas" tabindex="0"></canvas>
 
   </div>
 </template>
@@ -26,7 +26,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 div.gamemap {
     width: 100%;
     height: 100%;
